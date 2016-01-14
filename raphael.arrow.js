@@ -35,3 +35,7 @@ Raphael.fn.arrow = function (x1, y1, x2, y2, size) {
 
 	return this.path(arrowPath).rotate((angle), x1, y1);
 }
+
+function tlen(a, b) {
+	return Math.sqrt(a * a + b * b);
+}
